@@ -15,6 +15,14 @@
 	],
 	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/klenty/gunner-strategy-endpoint.git"
+	},
+	"bugs": {
+		"url": "https://github.com/klenty/gunner-strategy-endpoint/issues"
+	},
+	"homepage": "https://github.com/klenty/gunner-strategy-endpoint#readme",
 	"dependencies": {
 		"@klenty/gunner": "^0.6.7",
 		"chai": "^4.1.2",
