@@ -1,6 +1,6 @@
 {
 	"name": "@klenty/gunner-strategy-endpoint",
-	"version": "0.0.5",
+	"version": "0.1.0",
 	"description": "Endpoint testing strategy for gunner",
 	"main": "index.js",
 	"scripts": {
@@ -16,7 +16,7 @@
 	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
 	"license": "MIT",
 	"dependencies": {
-		"@klenty/gunner": "link:/home/mkr/Code/klenty/gunner-ci/gunner",
+		"@klenty/gunner": "^0.6.7",
 		"chai": "^4.1.2",
 		"chai-http": "^4.0.0",
 		"mongoose": "^5.2.6"
