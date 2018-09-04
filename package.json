@@ -1,0 +1,24 @@
+{
+	"name": "@klenty/gunner-strategy-endpoint",
+	"version": "0.0.5",
+	"description": "Endpoint testing strategy for gunner",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"endpoint",
+		"testing",
+		"tdd",
+		"gunner",
+		"klenty"
+	],
+	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
+	"license": "MIT",
+	"dependencies": {
+		"@klenty/gunner": "link:/home/mkr/Code/klenty/gunner-ci/gunner",
+		"chai": "^4.1.2",
+		"chai-http": "^4.0.0",
+		"mongoose": "^5.2.6"
+	}
+}
