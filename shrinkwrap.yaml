@@ -3,6 +3,7 @@ dependencies:
   chai: 4.1.2
   chai-http: 4.0.0
   mongoose: 5.2.6
+  shotgun-query: 0.1.0
 packages:
   /@babel/code-frame/7.0.0:
     dependencies:
@@ -196,6 +197,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+  /bracket-split/1.1.4:
+    dev: false
+    resolution:
+      integrity: sha512-O0FV/j4y/1Rzp/FlUZNy+AdNVfvPpBNRHe+8bpN5T4n7vm5N286TaT9Jvgvp0oEvNHTFU9dZIEpjvT/K7fKrqw==
   /bson/1.0.9:
     dev: false
     engines:
@@ -1324,6 +1329,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+  /shotgun-query/0.1.0:
+    dependencies:
+      bracket-split: 1.1.4
+    dev: false
+    resolution:
+      integrity: sha512-lKr0K5jG/d2L6500vvNNuN5qH82p7A1T6N2ySPXU4d6Qqjz4zj1K/pwIPg0psqOFmnPSl6+5q241C2Uuu/ACAQ==
   /signal-exit/3.0.2:
     dev: false
     resolution:
@@ -1509,3 +1520,4 @@ specifiers:
   chai: ^4.1.2
   chai-http: ^4.0.0
   mongoose: ^5.2.6
+  shotgun-query: ^0.1.0

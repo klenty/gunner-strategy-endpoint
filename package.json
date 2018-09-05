@@ -27,6 +27,7 @@
 		"@klenty/gunner": "^0.6.7",
 		"chai": "^4.1.2",
 		"chai-http": "^4.0.0",
-		"mongoose": "^5.2.6"
+		"mongoose": "^5.2.6",
+		"shotgun-query": "^0.1.0"
 	}
 }
